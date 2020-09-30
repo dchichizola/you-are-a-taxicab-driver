@@ -5,6 +5,7 @@ import changeImage from './images/change.jpg';
 import stateImage from './images/state.jpg';
 import wonderfulImage from './images/wonderful.jpg';
 import intImage from './images/int.jpg';
+import newYorkImage from './images/newyork.jpg';
 
 import { Presentation } from './components/presentation';
 import { IntroSlide } from './components/slides/intro';
@@ -196,7 +197,9 @@ const staticWorld = simulate(state, time);
     "Square roots of integers often don't make sense",
     "Without decimals, distances between two points often become... strange",
   ]} />,
-  <LinesSlide />
+  <IntroSlide heading="Infinite Manhattan Space"/>,
+  <LinesSlide />,
+  <ScrollImageSlide image={newYorkImage} width={4096*1.5} height={4096*1.5} />,
   ];
   return <main>
     <Presentation slides={slides} storeKey="SLIDES" />

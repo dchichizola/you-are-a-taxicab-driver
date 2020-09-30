@@ -126,3 +126,15 @@
   text-align: center;
   width: 4em;
 }
+
+.lines-slide {
+  height: 100%;
+  background-color: white;
+  position: relative;
+}
+
+.lines-slide canvas {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}

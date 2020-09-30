@@ -29,7 +29,6 @@ const useGlobalEvent = (event, handler) => {
 
 const Presentation = ({ slides, storeKey }) => {
   const [activeSlideIndex, setActiveSlideIndex] = useIndexedSlides(storeKey);
-  console.log(activeSlideIndex);
   const onKeyDown = (event) => {
     switch (event.keyCode) {
       case 37:
