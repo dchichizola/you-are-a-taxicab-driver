@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+
+.intro-slide {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: darkturquoise;
+  overflow-y: auto;
+}
+
+.intro-slide h2 {
+  font-size: 6em;
+  font-family: 'Secular One', sans-serif;
+  margin: 0;
+  text-decoration: underline;
+  text-align: center;
+}
+.intro-slide p {
+  font-size: 4em;
+  font-family: 'Secular One', sans-serif;
+  text-align: center;
+}
+
+.contents-slide {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #a3c160;
+  overflow-y: auto;
+}
+.contents-slide ol {
+  list-style-type: decimal;
+  font-family: 'Secular One', sans-serif;
+  font-size: 4em;
+  margin-left: 2em;
+}
+
+.dot-point-slide {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: greenyellow;
+}
+.dot-point-slide h3 {
+  font-size: 4em;
+  font-family: 'Secular One', sans-serif;
+  text-align: center;
+}
+.dot-point-slide ul {
+  font-family: 'Secular One', sans-serif;
+  font-size: 4em;
+  margin-left: 2em;
+}
+
+.scroll-image-slide {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  overflow: hidden;
+}
+
+.scroll-image-slide  form{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+}
+
+.code-slide {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(228, 218, 129);
+}
+
+.code-slide pre {
+  padding: 2em;
+  font-size: 4em;
+  background-color: white;
+  color: black;
+  box-shadow: grey 0 15px 20px;
+}
+
+.code-slide pre::selection {
+  background-color: black;
+  color: cyan;
+}
+
+.grid-slide {
+  height: 100%;
+  background-color: white;
+}
+
+.grid-slide text {
+  font-size: 4em;
+}
+
+.float-slide {
+  height: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 4em;
+}
+
+.float-slide button {
+  padding: 0.5em;
+  font-size: 1em;
+}
+
+.float-slide output {
+  font-size: 1em;
+  margin: 1em;
+}
+
+.float-slide form input {
+  margin: 1em;
+  font-size: 1em;
+  text-align: center;
+  width: 4em;
+}
